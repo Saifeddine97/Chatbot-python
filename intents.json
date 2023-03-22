@@ -1,0 +1,25 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["salut", "bonjour", "wesh", "bonsoir "],
+        "responses": ["Bonjour", "Salut", "Qu'est ce que je peux faire pour vous"]
+    },
+
+    {
+        "tag": "goodbye",
+        "patterns": ["au revoir", "à plutard", "bonne journée"],
+        "responses": ["Casse toi", "Finalement !"]
+    },
+
+    {
+        "tag": "name",
+        "patterns": ["comment tu t'appelle?", "tu t'appelle comment?", "c quoi ton nom", "vous êtes qui?"],
+        "responses": ["Je suis Jésus !", "C'est Jésus", "Je suis ta mère"]
+    },
+
+    {
+        "tag": "shop",
+        "patterns": ["je veux acheter", "que sont les produits disponnibles?", "vous me recommandez quoi comme produit?" ],
+        "responses": ["Bonjour", "Salut", "Qu'est ce que je peux faire pour vous"]
+    }
+]}
